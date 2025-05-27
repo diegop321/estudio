@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fernando",
+  "license": "ISC",
+  "description": "primer modulo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegop321/estudio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diegop321/estudio/issues"
+  },
+  "homepage": "https://github.com/diegop321/estudio#readme"
+}
