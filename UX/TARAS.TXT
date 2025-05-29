@@ -1,0 +1,5 @@
+// que se sumen los numeros que quieran 
+// crear calculadora html cc js
+
+funcioes lechas 
+clases 
