@@ -1,5 +1,3 @@
-
-
 const fs = require('fs');
 
 fs.readFile('books.json', function(err, data) { 
