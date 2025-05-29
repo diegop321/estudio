@@ -1,10 +1,10 @@
 
 
-// const os = require('os');
+const sistemaOperativo = require('os');
 
-// console.log(os.platform());
-
-
+console.log(sistemaOperativo.platform());
 
 
-console.log(process.platform);
+
+
+// console.log(process.platform);
