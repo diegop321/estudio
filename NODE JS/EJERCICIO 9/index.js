@@ -31,8 +31,15 @@ listar.readdir("../EJERCICIO 6", (error,archivos) => {
 
 
 
+
+
+
+
+
+
+
 //fs =  módulo File System.   módulo nativo de Node.js
-// throw en JavaScript se usa para lanzar (tirar) un error|
+// throw en JavaScript se usa para lanzar (tirar) un error
 //fs.readdir(path, options, callback).readdir(path, options, callback)
 //¿Qué es un callback?         Un callback es una función que se pasa como argumento a otra función, y se ejecuta después de que esa función termina su trabajo.
 
