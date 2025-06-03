@@ -1,3 +1,4 @@
+# Usar fs.readdir para listar archivos de una carpeta.
 from pathlib import Path
 
 

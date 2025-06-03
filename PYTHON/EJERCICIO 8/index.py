@@ -1,14 +1,16 @@
+# Crear un contador con setInterval
+
 import threading
 
 def contador():
-    global count
-    print(count)
-    count += 1
+    global c
+    print(c)
+    c += 1
     
     threading.Timer(1, contador).start()
 
 
-count = 0
+c = 0
 
 
 contador()
