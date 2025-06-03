@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 
-const content = 'holaaa este es es escrito ';
+// const content = 'holaaa este es es escrito ';
 
 fs.readFile('./test.txt', 'utf8', (err, data) => {
   if (err) {
