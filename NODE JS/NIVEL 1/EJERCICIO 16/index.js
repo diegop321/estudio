@@ -1,12 +1,13 @@
 const fs = require("fs");
 const csv = require("csv");
 
-const crearArchivo = fs.createWriteStream("file.csv");
+
+const a =fs.createWriteStream("archivio.csv");
 
 const data = [
   { name: "John", age: 25, city: "New York" },
-  { name: "Jane", age: 24, city: "San Francisco" },
-  { name: "Jim", age: 30, city: "Chicago" },
+  { name: "diego", age: 24, city: "San Francisco" },
+  { name: "fernando", age: 30, city: "Chicago" },
 ];
 
 csv.stringify(data, {
@@ -17,7 +18,7 @@ csv.stringify(data, {
       city: "city",
     },
   })
-  .pipe(crearArchivo);
+  .pipe(a);
 
 
 
