@@ -7,7 +7,7 @@ def contador():
     print(c)
     c += 1
     
-    threading.Timer(1, contador).start()
+    threading.Timer(5, contador).start()
 
 
 c = 0
