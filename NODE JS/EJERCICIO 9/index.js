@@ -1,6 +1,6 @@
 const listar= require("node:fs");
 
-listar.readdir("../EJERCICIO 270", (error,archivos) => {
+listar.readdir("../EJERCICIO 10 11", (error,archivos) => {
     if (error) {
         console.log("error: ", error)
     }
