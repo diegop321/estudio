@@ -1,0 +1,18 @@
+{
+  "name": "ejercicio-15",
+  "version": "1.0.0",
+  "description": "ejercicio",
+  "main": "index.js",
+  "scripts": {
+    "test": "quince"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yyy"
+  },
+  "keywords": [
+    "y"
+  ],
+  "author": "yo",
+  "license": "ISC"
+}
