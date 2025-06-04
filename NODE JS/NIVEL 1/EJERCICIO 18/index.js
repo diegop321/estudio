@@ -6,7 +6,6 @@ const url = "https://www.youtube.com/";
 let cmdCommand;
 
 
-
 if (sistemaOp === "win32") {
   cmdCommand = `start chrome  ${url}`;
 } else {
