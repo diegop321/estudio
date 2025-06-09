@@ -1,19 +1,17 @@
-// async function f() {
-//   return console.log("dddd");
-// }
+// Crear una función asincrónica con async/await.
 
-// f();
-
-
-let n = 1;
-
-async function f() {
-    let p = new Promise((resolve)=>{
-    let x = setInterval(()=>{ console.log("contador " + n ); n++}, 1000)
-    setInterval(()=> clearInterval(x), 3000)
-    setTimeout(() => resolve(console.log("¡Hecho!")), 3100)
-});
-// let resultado = await p;
-// console.log(resultado )
+async function pato(){
+    let n = 0;
+ let interval = setInterval(()=>{
+    n++;
+    console.log(n);
+    if (n > 10) {
+        clearInterval(interval);
+    }
+ },100);
 }
-f()
+
+(async () =>{
+    await pato();
+    console.log("la suma de 1 + 7 es:", 1 +7)
+}) ();
