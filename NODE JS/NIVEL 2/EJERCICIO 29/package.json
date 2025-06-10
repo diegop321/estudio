@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio-29",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "joi": "^17.13.3"
+  }
+}
