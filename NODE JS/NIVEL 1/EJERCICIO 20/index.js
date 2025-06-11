@@ -1,3 +1,6 @@
+// Implementar una función que filtre una lista de usuarios por edad.
+
+
 const lista = [
     {usuario:"pepe",    edad :18},
     {usuario:"juan",    edad :25},
