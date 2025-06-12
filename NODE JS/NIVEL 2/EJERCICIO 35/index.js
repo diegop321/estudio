@@ -1,0 +1,1 @@
+// Emitir eventos cuando un archivo ha sido leído
